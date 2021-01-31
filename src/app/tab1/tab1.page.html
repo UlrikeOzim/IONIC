@@ -29,7 +29,7 @@
     </div>
 
     <div>
-      <ion-button href="http://localhost:8100/tabs/tab2">
+      <ion-button (click)="this.presentPopover($event)">
         <ion-icon slot="start" name="ellipse"></ion-icon>
         Merge Sort
       </ion-button>
@@ -38,7 +38,7 @@
       </ion-button>
     </div>
     <div>
-      <ion-button href="http://localhost:8100/tabs/tab2">
+      <ion-button (click)="this.presentPopover($event)">
         <ion-icon slot="start" name="ellipse"></ion-icon>
         Insertion Sort
       </ion-button>
