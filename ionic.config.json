@@ -1,5 +1,7 @@
 {
   "name": "ColorChangerApp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
